@@ -1,0 +1,45 @@
+2021-11-23 13:35:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORIA" not found; SQL statement:
+select categoria0_.codigo as codigo1_0_, categoria0_.nome as nome2_0_ from categoria categoria0_ [42102-200]
+2021-11-23 13:35:39 database: wrong user or password; user: ""
+org.h2.message.DbException: Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:168)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 9 more
+2021-11-23 13:35:40 database: wrong user or password; user: ""
+org.h2.message.DbException: Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:168)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 9 more
+2021-11-23 13:36:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORIA" not found; SQL statement:
+select categoria0_.codigo as codigo1_0_, categoria0_.nome as nome2_0_ from categoria categoria0_ [42102-200]
+2021-11-23 13:37:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORIA" not found; SQL statement:
+select categoria0_.codigo as codigo1_0_0_, categoria0_.nome as nome2_0_0_ from categoria categoria0_ where categoria0_.codigo=? [42102-200]
+2021-11-23 13:38:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORIA" not found; SQL statement:
+select categoria0_.codigo as codigo1_0_, categoria0_.nome as nome2_0_ from categoria categoria0_ [42102-200]
+2021-11-24 10:45:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORIA" not found; SQL statement:
+select categoria0_.codigo as codigo1_0_, categoria0_.nome as nome2_0_ from categoria categoria0_ [42102-200]
